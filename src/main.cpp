@@ -161,10 +161,6 @@ int main(int argc, char **argv) {
   // Read the mesh
   igl::readOBJ(filename, meshV, meshF);
 
-  // igl::opengl::glfw::Viewer viewer;
-  // viewer.data().set_mesh(meshV, meshF);
-  // viewer.launch();
-
   // Register the mesh with Polyscope
   polyscope::registerSurfaceMesh("input mesh", meshV, meshF);
 
