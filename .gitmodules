@@ -1,0 +1,7 @@
+[submodule "deps/polyscope"]
+	path = deps/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
+	branch = v02
+[submodule "deps/libigl"]
+	path = deps/libigl
+	url = https://github.com/libigl/libigl.git
